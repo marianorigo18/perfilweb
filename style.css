@@ -252,11 +252,7 @@ body {
 .contact {
   width: 100vw;
   height: 100vh;
-  background-image: url("../imgs/escritorioconmac.jpg");
-  background-color: #646464;
-  background-blend-mode: soft-light;
-  background-position: center;
-  background-size: cover;
+  background-color:white;
 }
 
 .contact_hedding {
