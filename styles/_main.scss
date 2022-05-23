@@ -1,0 +1,147 @@
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:(1fr 1fr);
+    align-items: center; 
+}
+.info-title{
+    font-size: 3em;
+}
+.info-title span{
+    color: $primary-color;
+}
+.download-cv{
+    padding: 10px 20px;
+    background-color: $primary-color;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.main img{
+    width: 250px;
+    border: 7px solid $primary-color;
+    height: 400px;
+    margin-left: 50px;
+}
+.about{ 
+    display: grid;
+    grid-template-columns:(1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr); 
+    width: 100vw;
+    align-items: center;
+}
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+}
+.about-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+.about-info h2{
+    font-size: 2em;
+    color: $bg-primary;
+}
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: $primary-color;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+.about-info p{
+    margin-top: 1em;
+}
+.download-cv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.portfolio-heddings{
+    width: 100vw;
+    padding: 5em;
+}
+.portfolio-heddings h2{
+    font-size: 2.5em;
+}
+.portfolio .container{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.card{ 
+    width: 300px;
+    margin: 0 30px;
+}
+.card__img{
+    width: 100%;
+    height: 150px;
+    background-image: url(../imgs/imagenCode.jpg);
+    background-size: cover;
+}
+.card__img-one{
+    background-image: url("https://s3.amazonaws.com/sc.acamica.com/dwfs-project-1.svg"); 
+}
+.card__img-two{
+    background-image: url("https://s3.amazonaws.com/sc.acamica.com/dwfs-project-2.svg");
+}
+.card__img-three{
+    background-image: url("https://s3.amazonaws.com/sc.acamica.com/dwfs-project-3.svg");
+}
+.card__title{
+    text-align: center;
+}
+.card__title{
+    padding: 20px;
+}
+.card__proyect-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.proyects-details{
+    display: block;
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../imgs/escritorioconmac.jpg"); 
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+}
+.contact_hedding{
+    color: black;
+    width: 100vw;
+    padding: 5em;
+    h2{ 
+        font-size: 2.5em;
+    }
+}
+.card-contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    text-align: center;
+}
+.card-contact i{
+    font-size: 4rem;
+    color: black;
+}
